@@ -1,0 +1,28 @@
+[
+    {
+        "table_name": "ip_firewall",
+        "key": [
+            "ipv4.srcAddr",
+            "ipv4.dstAddr"
+        ],
+        "actions": {
+            "allow_ip": 2,
+            "drop": 0
+        },
+        "size": 1024,
+        "default_action": "drop"
+    },
+    {
+        "table_name": "udp_port_firewall",
+        "key": [
+            "udp.srcPort",
+            "udp.dstPort"
+        ],
+        "actions": {
+            "forward": 3,
+            "drop": 1
+        },
+        "size": 1024,
+        "default_action": "drop"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "allow_ip": {
+        "id": 0,
+        "total_width": 0,
+        "args": {}
+    },
+    "drop": {
+        "id": 1,
+        "total_width": 0,
+        "args": {}
+    },
+    "forward": {
+        "id": 2,
+        "total_width": 16,
+        "args": {
+            "port": 16
+        }
+    }
+}

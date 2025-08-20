@@ -1,0 +1,18 @@
+{
+    "table_size": {
+        "TS_Ip_firewallTable": 1024,
+        "TS_Udp_port_firewallTable": 1024
+    },
+    "table_matchkey_width": {
+        "MS_Ip_firewallTable": 64,
+        "MS_Udp_port_firewallTable": 32
+    },
+    "table_action_width": {
+        "AS_Ip_firewallTable": 3,
+        "AS_Udp_port_firewallTable": 19
+    },
+    "table_types": [
+        "TYPE_Ip_firewallTable",
+        "TYPE_Udp_port_firewallTable"
+    ]
+}
